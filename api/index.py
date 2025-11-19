@@ -287,37 +287,6 @@ def home():
                 line-height: 1.8;
             }
 
-            /* DOWNLOAD BTN */
-            .download-section {
-                text-align: center;
-                margin: 50px 0;
-                padding: 50px 30px;
-                background: linear-gradient(135deg, rgba(255, 51, 102, 0.1), rgba(0, 212, 255, 0.1));
-                border-radius: 25px;
-                border: 2px solid rgba(255, 51, 102, 0.3);
-            }
-
-            .download-btn {
-                display: inline-block;
-                background: linear-gradient(135deg, var(--accent), #0099ff);
-                color: white;
-                padding: 18px 50px;
-                border-radius: 50px;
-                text-decoration: none;
-                font-weight: 800;
-                font-size: 18px;
-                margin: 15px 10px;
-                transition: all 0.3s ease;
-                font-family: 'Orbitron', sans-serif;
-                text-transform: uppercase;
-                box-shadow: 0 10px 40px rgba(0, 212, 255, 0.4);
-            }
-
-            .download-btn:hover {
-                transform: translateY(-5px) scale(1.05);
-                box-shadow: 0 20px 60px rgba(0, 212, 255, 0.6);
-            }
-
             /* PRICING */
             .pricing-grid {
                 display: grid;
@@ -560,24 +529,10 @@ def home():
                 
                 <div class="quick-links">
                     <a href="https://areskey.vercel.app" target="_blank" class="quick-link old-tool">🛡️ Tool Vua Thoát Hiểm</a>
-                    <a href="#download" class="quick-link">📥 Tải Tool</a>
                     <a href="#guide" class="quick-link">📖 Hướng Dẫn</a>
                     <a href="#pricing" class="quick-link">💎 Bảng Giá</a>
                     <a href="#contact" class="quick-link">📞 Liên Hệ</a>
                 </div>
-            </div>
-
-            <!-- DOWNLOAD -->
-            <div class="download-section" id="download">
-                <h2 style="font-family: 'Orbitron', sans-serif; font-size: 32px; color: var(--accent); margin-bottom: 20px;">
-                    📥 TẢI TOOL VUA TỐC ĐỘ
-                </h2>
-                <p style="font-size: 16px; margin-bottom: 30px;">
-                    Click để tải ngay phiên bản mới nhất!
-                </p>
-                <a href="https://raw.githubusercontent.com/quocdung1303/toolares/main/toolares.py" class="download-btn" download>
-                    ⚡ TẢI NGAY
-                </a>
             </div>
 
             <!-- GUIDE -->
